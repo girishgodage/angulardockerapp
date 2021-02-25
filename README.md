@@ -1,5 +1,22 @@
 # AngularDocker
 
+This is sample angular repository running on the docker.
+
+To buld the project, use below docker command
+
+```
+    docker build -t angulardocker .
+
+```
+
+To run the docker container use below command
+
+```
+  docker run -d -it -p 8001:80 --name ngdocker angulardocker
+
+```
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
 
 ## Development server
